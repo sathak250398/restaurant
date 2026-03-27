@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Restaurant Project</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f4f4f4;
+    }
+    header {
+        background: #222;
+        color: white;
+        text-align: center;
+        padding: 15px;
+    }
+    .student {
+        background: #eee;
+        padding: 10px;
+        text-align: center;
+        font-size: 14px;
+    }
+    nav {
+        background: #444;
+        text-align: center;
+    }
+    nav a {
+        color: white;
+        padding: 10px 15px;
+        display: inline-block;
+        text-decoration: none;
+    }
+    nav a:hover {
+        background: #666;
+    }
+    .hero {
+        background: url('https://images.unsplash.com/photo-1555992336-03a23c7b20ee') no-repeat center/cover;
+        height: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .container {
+        padding: 20px;
+        text-align: center;
+    }
+    .menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    .card {
+        background: white;
+        padding: 15px;
+        width: 200px;
+        border-radius: 10px;
+        box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+    footer {
+        background: #222;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin-top: 20px;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Food Corner</h1>
+    <p>Tasty & Fresh Everyday</p>
+</header>
+
+<div class="student">
+    <strong>Name:</strong> Vishwabhushan Sachin Bhosale |
+    <strong>Roll No:</strong> 2503121 |
+    <strong>Department:</strong> COB2K Computer Department
+</div>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+    Welcome to Food Corner
+</div>
+
+<div class="container" id="menu">
+    <h2>Menu</h2>
+    <div class="menu">
+        <div class="card">
+            <h3>Pizza</h3>
+            <p>₹300</p>
+        </div>
+        <div class="card">
+            <h3>Burger</h3>
+            <p>₹150</p>
+        </div>
+        <div class="card">
+            <h3>Sandwich</h3>
+            <p>₹120</p>
+        </div>
+        <div class="card">
+            <h3>Cold Coffee</h3>
+            <p>₹100</p>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="about">
+    <h2>About</h2>
+    <p>We serve delicious food with quality ingredients and great taste.</p>
+</div>
+
+<div class="container" id="contact">
+    <h2>Contact</h2>
+    <p>Phone: +91 9000000000</p>
+    <p>Email: foodcorner@email.com</p>
+</div>
+
+<footer>
+    <p>© 2026 Food Corner</p>
+</footer>
+
+</body>
+</html>
